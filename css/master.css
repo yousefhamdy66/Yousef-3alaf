@@ -1,0 +1,397 @@
+/* body {
+    background-image: url(papers.co-ak39-apple-store-front-architecture-city-36-3840x2400-4k-wallpaper.jpg);
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center;
+} */
+.image-area {
+    background-image: url(papers.co-ak39-apple-store-front-architecture-city-36-3840x2400-4k-wallpaper.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    filter: blur(6px);
+    -webkit-filter:blur(6px);
+}
+
+.nav {
+    background-color: rgba(4, 40, 49, 0.692);
+    text-align: center;
+    transition-duration: 0.5s;
+}
+.nav ul {
+    display: inline-flex;
+    list-style: none;
+    color: black;
+}
+.nav ul li {
+    margin: 3px;
+    padding: 3px;
+    width: 88px;
+    transition-duration: 00.5s;
+}
+.nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+.nav ul li:hover {
+    background-color: rgba(2, 25, 31, 0.719) ;
+    border-radius: 3px;
+}
+.nav .fa {
+    margin-left: 5px;
+}
+.Home {
+    display: none;
+}
+
+.nav ul li:hover .Home   {
+    display: block;
+    position: absolute;
+    background-color: rgba(4, 40, 49, 0.692) ;
+    margin-top: 15px;
+    margin-left: -15px;
+
+}
+
+.nav ul li:hover .Home ul {
+    display: block;
+    margin: 10px;
+}
+.nav ul li:hover .Home ul li {
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted oldlace;
+    background: transparent;
+    border-radius: 0px;
+    text-align: end;
+}
+.lbox {
+    width: 380px;
+    margin: auto;
+    border-radius: 25px;
+    /* background-image: url(207-2070102_com-apple-wallpaper-apple-shiny-blue-iphone4.jpg);
+    background-size: cover; */
+    background-color: rgba(9, 30, 49, 0.603);
+    margin-top: 22px;
+}
+.head {
+    text-align: center;
+    padding-top: 105px;
+}
+.head h1 {
+    color: rgb(0, 0, 0);
+    margin-bottom: 88px;
+
+}
+.lol {
+    text-align: center;
+}
+.lol input, button {
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 40px;
+    box-sizing: border-box;
+    font-size: 15;
+    color: #333;
+    margin-bottom: 40px;
+    background-color: rgba(255, 255, 255, 0.5);
+    transition-duration: 00.25s;
+}
+.lol span {
+    position: relative;
+
+}
+.lol button {
+    background-color: rgba(9, 30, 49, 0.603);
+    padding-left: 0px;
+    border: none;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: black;
+}
+.lol button:hover, input:hover {
+    box-shadow: 2px 2px 5px gray;
+    background-color:rgba(5, 28, 49, 0.945);
+    border-radius: 10px;
+    color: white;
+    
+}
+.lol input:hover {
+    box-shadow: 2px 2px 5px gray;
+    background-color: rgba(128, 128, 128, 0.363);
+}
+.contant h1 {
+    font-size: 24;
+    text-align: center;
+
+}
+.contant {
+    margin-top: 50;
+}
+footer {
+    margin-top: 133px;
+    position: relative;
+    width: 86.5%;
+    height: 45%;
+    padding: 1px 97px;
+    background-color: #001f3f;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-top-left-radius: 149px;
+    margin-bottom: 10;
+}
+footer .footone {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+footer .footone .abo {
+    margin-right: 30px;
+}
+
+footer .footone .abo .lelo {
+    width: 4px;
+}
+footer .footone .abo .lelo h2 {
+    position: relative;
+    color: white;
+    margin-bottom: 15px;
+}
+
+footer .footone .abo .lelo h2::before {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+
+}
+footer  p {
+color: black;
+}
+
+.ulo {
+margin-top: 20px;
+display: flex;
+}
+.ulo li {
+    list-style: none;
+}
+.ulo li a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+    color: black;
+}
+.ulo li a:hover {
+    background-color: rgb(0, 26, 53);
+}
+
+.ulo li a .fa {
+    font-size: 25px;
+}
+/* for the foot
+to design it
+*/
+.foottwo {
+position: relative;
+width: 25%;
+}
+.foottwo ul li {
+    list-style: none;
+}
+.foottwo ul li a {
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+    color: black;
+}
+/* for the contant of the body */
+.imageone {
+    box-sizing: border-box;
+    font-family: 'Lato' ,sans-serif, ;
+    display: flex;
+    width: 93%;
+    justify-content: space-around;
+}
+
+.card {
+    width: 280px;
+    height: 420px;
+    padding: -1rem -2rem;
+    background: rgba(0, 0, 0, 0);
+    position: relative;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+    transition: 0.5s ease-in-out;
+
+}
+.card:hover {
+    transform: translateY(20px);
+} 
+ .card::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top,)rgba(8, 127, 206, 0.5)  rgba(27, 148, 196, 0.418);
+    z-index: 2;
+    transition: 0.5 all;
+    opacity: 1;
+
+}
+.card:hover::before {
+    opacity: 1;
+}
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+.card .in {
+    position: relative;
+    z-index: 3;
+    color: white;
+    opacity: 0;
+    transition: 0.5 all;
+    transform: translateY(30px);
+
+}
+.card:hover .in {
+    opacity: 1;
+    transform: translateY(0px);
+}
+.card .in h1 {
+    margin-left: 30;
+
+}
+.card .in p {
+    letter-spacing: 1px;
+    font-size: 15px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+
+}
+.card .in .zorar {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    background:rgb(6, 37, 71) ;
+    color: #000;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 00.5s ease-in-out;
+}
+.card .in .zorar:hover {
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+
+}
+.ss {
+    display: block;
+}
+.imageoneoverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    display: flex;
+}
+.imageoneoverlay:hover {
+    opacity: 1;
+}
+.imageone {
+        margin-top: 120;
+    }
+
+.mac {
+    background-image: url(shshshsh.png);
+    background-size: cover;
+    height: 483px;
+    width: 523px;
+    margin-left: 91px;
+    margin-top: 114px;
+}
+.mac:hover {
+    transform: translateY(20px);
+} 
+ .mac:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top,)rgba(8, 127, 206, 0.5)  rgba(27, 148, 196, 0.418);
+    z-index: 2;
+    transition: 0.25 all;
+    opacity: 1;
+
+}
+.mac:hover:before {
+    opacity: 1;
+}
+.macinfo {
+    height: 381px;
+    margin: 23px;
+    margin-left: 619px;
+    width: 1057px;
+    margin-top: -74px;
+    letter-spacing: 2;
+    font-size: 36px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: Georgia, serif;
+}
+.macinfo h3 {
+    text-align: center;
+}
+.logo {
+    background-image: url(apple-curent-logo-removebg-preview.png);
+    background-repeat: no-repeat;
+    height: 355px;
+    margin-left: 495px;
+}
+.new {
+    text-align: center;
+    font-weight: bold;
+    font-size: 300;
+}
+.right {
+text-align: center;
+margin-left: 500px;
+}
+.new h2 {
+    font-size: 70px;
+}
+.new {
+    margin-top: 147px;
+    margin-bottom: 151px;
+}
